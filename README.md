@@ -1,7 +1,6 @@
 # SQL & DBMS Notes — Topic-Based Learning Repository
 
-A chapter-by-chapter SQL & DBMS learning repository. Each topic folder keeps its
-notes and related practice material together.
+A chapter-by-chapter SQL & DBMS learning repository. Each topic folder keeps its notes and related practice material together.
 
 ## Chapter Map
 
@@ -17,6 +16,7 @@ notes and related practice material together.
 | 8 | [Keys and Constraints](./08-keys-and-constraints/) | [MD](./08-keys-and-constraints/08_keys_and_constraints.md) | [SQL](./08-keys-and-constraints/08_keys_and_constraints.sql) | [PDF](./08-keys-and-constraints/08_keys_and_constraints.pdf) | [DOCX](./08-keys-and-constraints/08_keys_and_constraints.docx) |
 | 9 | [DML: Managing Data](./09-dml-managing-data/) | [MD](./09-dml-managing-data/09_dml_managing_data.md) | [SQL](./09-dml-managing-data/09_dml_managing_data.sql) | [PDF](./09-dml-managing-data/09_dml_managing_data.pdf) | [DOCX](./09-dml-managing-data/09_dml_managing_data.docx) |
 | 10 | [DQL: Retrieving and Filtering Data](./10-dql-retrieving-filtering-data/) | [MD](./10-dql-retrieving-filtering-data/10_dql_retrieving_filtering_data.md) | [SQL](./10-dql-retrieving-filtering-data/10_dql_retrieving_filtering_data.sql) | [PDF](./10-dql-retrieving-filtering-data/10_dql_retrieving_filtering_data.pdf) | [DOCX](./10-dql-retrieving-filtering-data/10_dql_retrieving_filtering_data.docx) |
+| 11 | [SQL Functions](./11-sql-functions/) | [MD](./11-sql-functions/11_sql_functions.md) | [SQL](./11-sql-functions/11_sql_functions.sql) | [PDF](./11-sql-functions/11_sql_functions.pdf) | [DOCX](./11-sql-functions/11_sql_functions.docx) |
 
 ## Topic Coverage
 
@@ -29,9 +29,11 @@ notes and related practice material together.
 - **Chapter 7:** ALTER TABLE, ADD, MODIFY, CHANGE, DROP, RENAME, TRUNCATE, DROP vs DELETE
 - **Chapter 8:** Candidate, primary, composite, unique and foreign keys; PRIMARY KEY, NOT NULL, UNIQUE, DEFAULT, CHECK, AUTO_INCREMENT, FOREIGN KEY
 - **Chapter 9:** INSERT, UPDATE, DELETE, multiple records, calculations, constraints and referential integrity
-- **Chapter 10:** SELECT, aliases, calculated columns, **DISTINCT**, **ORDER BY**, **LIMIT/OFFSET**, WHERE, comparison operators, AND/OR/NOT, parentheses, IN/NOT IN, BETWEEN, LIKE/wildcards, NULL handling, combined filtering and interview practice
+- **Chapter 10:** SELECT, aliases, calculated columns, DISTINCT, ORDER BY, LIMIT/OFFSET, WHERE, comparison operators, AND/OR/NOT, parentheses, IN/NOT IN, BETWEEN, LIKE/wildcards, NULL handling, combined filtering and interview practice
+- **Chapter 11:** SQL Functions, String Functions, Numeric Functions, Date and Time Functions, Aggregate Functions, NULL-handling Functions, Conditional Functions, Conversion Functions, System / Information Functions, JSON Functions, scalar vs aggregate functions, functions with SELECT/WHERE/ORDER BY, basic functions with GROUP BY, combining functions, practical problems and interview questions
 
 ## Notes
 
-Chapters 1 and 5 are conceptual/setup chapters, so they do not contain a dedicated SQL
-practice script. The other chapters contain a related `.sql` sample file.
+Chapters 1 and 5 are conceptual/setup chapters, so they do not contain a dedicated SQL practice script. The other chapters contain a related `.sql` sample file.
+
+Chapter 11 is intentionally focused on **SQL Functions**. Topics such as detailed `GROUP BY` / `HAVING`, JOINs, subqueries, set operators, views, indexes, transactions and window functions are reserved for separate later chapters so the repository remains organized and topics do not get mixed together.
